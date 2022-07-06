@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>About | Deji</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Deji | About</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+	      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link href="css/index.css" rel="stylesheet">
-	<link href="css/about.css" rel="stylesheet">
 	<link href="favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
 	<link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 	<link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
@@ -20,138 +22,98 @@
 	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="header">
-	<nav class="header-nav">
-		<ul class="nav-ul">
-			<li class="nav-li">
-				<a class="nav-a-2" href="about.html">About Me</a>
-			</li>
-			<li class="nav-li">
-				<a class="nav-a-1" href="index.html">Home</a>
-			</li>
-			<li class="nav-li">
-				<img class="nav-img" src="images/logo.png">
-			</li>
-			<li class="nav-li">
-				<a class="nav-a-3" href="portfolio.html">Portfolio</a>
-			</li>
-			<li class="nav-li">
-				<a class="nav-a-4" href="contact.html">Contact</a>
-			</li>
-		</ul>
-	</nav>
-</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 
-<div class="about-div">
-	<div class="about-inner-div">
-		<div class="inner-left-div">
-			<div class="inner-img-div">
-				<video class="about-video" width="360" height="640" controls autoplay muted>
-					<source src="images/basketball.mov" type="video/mp4">
-				</video>
-			</div>
+<nav class="navbar navbar-expand-lg fixed-top bg-light  nav-fill justify-content-center">
+	<div class="container-fluid">
+		<img class="navbar-brand rotate-img" width="30px" src="images/logo.png">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+		        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 flex-grow-1">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="about.html">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="contact.html">Contact</a>
+				</li>
+			</ul>
 		</div>
-		<div class="inner-right-div">
-			<h1 class="h1">
+	</div>
+</nav>
+
+<div class="container-fluid justify-content-center" style="margin: 15% auto 20%;">
+	<div class="row">
+		<div class="w-75 mx-auto">
+			<video class="" width="100%" controls autoplay muted>
+				<source src="images/basketball.mov" type="video/mp4">
+			</video>
+		</div>
+	</div>
+	<div class="row">
+		<div class="w-75 mx-auto">
+			<h1 class="text-center fs-3 text-muted mt-5">
 				I'm Deji, an upcoming product developer learning all I can on
 				<a href="udemy.com">
-					<span>Udemy</span>
+					Udemy
 				</a>
 				while doing side projects like this site.
 			</h1>
-			<p class="p">
+			<p class="mt-5 fs-5">
 				I've spent 90% of this year (2022) online because in the country I live in, our lecturers have been on
 				strike.
 				I couldn't sit down and do nothing because that's just not who I am. It was then I decided to learn all
 				I can online while I
 				have the free time to do so.
 			</p>
-			<p class="p">
+			<p class="mt-4 fs-5">
 				I started off with the Python Bootcamp course, and I can confidently say I'm qualified
 				to make any automated script I (and any potential customer) need. When I finished that course, I moved
 				on
 				to web development, and well, you can see the results of that in this website.
 			</p>
-			<p class="p">
+			<p class="mt-4 fs-5">
+				While doing online courses at home, I'm also studying a 5-year computer engineering course in school. My
+				love for computers has been a regular thing for as far back as I can remember. I almost consider myself
+				as multilingual due to all the programming languages I'm trying to learn.
+			</p>
+			<p class="mt-4 fs-5">
 				These days, my time is spent learning all I possibly can online and bettering this website to attract
 				potential customers.
 			</p>
-			<p class="p">
+			<p class="mt-4 fs-5">
 				Outside of developing, you'd find me playing basketball or online multiplayer games. Animals are my best
-				friends.
+				friends and I ❤️ Oreo's!
 			</p>
-		</div>
-	</div>
-	<div class="about-inner-div-2">
-		<h2>A Brief History</h2>
-		<div class="history-div">
-			<div class="inner-history-div">
-				<div class="one">
-					<div class="one-inner">
-						<div class="one-inner-left">
-							<span class="one-span-one">Grenville Schools</span>
-							<span class="one-span-two">Student</span>
-						</div>
-						<div class="one-inner-right">
-							<div class="one-inner-right-inner">14-20</div>
-						</div>
-					</div>
-				</div>
-				<div class="two">
-					<div class="two-inner">
-						<div class="two-inner-left">
-							<span class="two-span-one">University of Ilorin</span>
-							<span class="two-span-two">Student</span>
-						</div>
-						<div class="two-inner-right">
-							<div class="two-inner-right-inner">21~</div>
-						</div>
-					</div>
-				</div>
-				<div class="three">
-					<div class="three-inner">
-						<div class="three-inner-left">
-							<span class="three-span-one">Python Bootcamp</span>
-							<span class="three-span-two">Programmer</span>
-						</div>
-						<div class="three-inner-right">
-							<div class="three-inner-right-inner">22</div>
-						</div>
-					</div>
-				</div>
-				<div class="four">
-					<div class="four-inner">
-						<div class="four-inner-left">
-							<span class="four-span-one">Web Development Bootcamp</span>
-							<span class="four-span-two">Developer</span>
-						</div>
-						<div class="four-inner-right">
-							<div class="four-inner-right-inner">22~</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 </div>
 
-<footer class="footer">
-	<div class="footer-content">
-		<h3 class="footer-h3">I take on freelance opportunities.</h3>
-		<p class="footer-content-p">
-			Have an amazing design that you need to bring to life?
-			<span class="footer-span">
-				Send me a message,
-				<a class="footer-a" href="contact.html">
-					<span>let's chat</span>
-					!
-				</a>
-			</span>
+<div class="container-fluid justify-content-center" style="margin: 25% auto 20%;">
+	<div class="mx-auto">
+		<h1 class="text-center">I take on freelance opportunities.</h1>
+		<p class="text-center">
+			Have an amazing design that you need to bring to life?<br>
+			Send me a message,
+			<a class="footer-a" href="contact.html">let's chat</a>!
 		</p>
 	</div>
-	<div class="footer-div">
-		<p class="footer-p">Made with <3 by Deji | Copyright © 2022</p>
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-bottom justify-content-center">
+	<div class="nav-item">
+		<p class="text-muted mb-0" style="font-size: 0.8rem;">Made with <3 by Deji | Copyright © 2022</p>
 	</div>
-</footer>
+</div>
 </body>
 </html>

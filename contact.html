@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Contact | Deji</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Deji | Contact</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+	      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link href="css/index.css" rel="stylesheet">
 	<link href="favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
 	<link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
@@ -19,45 +22,81 @@
 	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="header">
-	<nav class="header-nav">
-		<ul class="nav-ul">
-			<li class="nav-li">
-				<a class="nav-a-2" href="about.html">About Me</a>
-			</li>
-			<li class="nav-li">
-				<a class="nav-a-1" href="index.html">Home</a>
-			</li>
-			<li class="nav-li">
-				<img class="nav-img" src="images/logo.png">
-			</li>
-			<li class="nav-li">
-				<a class="nav-a-3" href="portfolio.html">Portfolio</a>
-			</li>
-			<li class="nav-li">
-				<a class="nav-a-4" href="contact.htm">Contact</a>
-			</li>
-		</ul>
-	</nav>
-</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 
-<footer class="footer">
-	<div class="footer-content">
-		<h3 class="footer-h3">I take on freelance opportunities.</h3>
-		<p class="footer-content-p">
-			Have an amazing design that you need to bring to life?
-			<span class="footer-span">
-				Send me a message,
-				<a class="footer-a" href="contact.html">
-					<span>let's chat</span>
-					!
-				</a>
-			</span>
+<nav class="navbar navbar-expand-lg fixed-top bg-light  nav-fill justify-content-center">
+	<div class="container-fluid">
+		<img class="navbar-brand rotate-img" width="30px" src="images/logo.png">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+		        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 flex-grow-1">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="about.html">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container-fluid justify-content-center" style="margin: 10% auto 20%;">
+	<h1 class="text-center">Contact Me</h1>
+	<p class="text-center text-muted">Have any questions? I'd love to hear from you!</p>
+	<div class="container-fluid mx-auto">
+		<div class="row justify-content-between w-75 mx-auto" style="margin: 10% auto;">
+			<div class="col-lg">
+				<div class="card border-primary rounded-4 mx-auto text-center" style="width: 18rem;">
+					<div class="card-body">
+						<h4 class="card-title mt-3 text-center">Call Me</h4>
+						<p class="card-text text-muted mt-5 text-center">Are you interested in hiring my services, and
+							you need to discuss some designs over the phone?</p>
+						<a href="tel:+2348139414073" class="btn btn-primary mt-5">Call Me Now!</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg">
+				<div class="card col-lg border-info rounded-4 mx-auto text-center" style="width: 18rem;">
+					<div class="card-body">
+						<h4 class="card-title mt-3 text-center">E-mail Me</h4>
+						<p class="card-text text-muted mt-5 text-center">Are you currently busy but want to have back
+							and forth discussions about potential designs?</p>
+						<a href="tel:+2348139414073" class="btn btn-info mt-5">E-mail Me Now!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid justify-content-center" style="margin: 25% auto 20%;">
+	<div class="mx-auto">
+		<h1 class="text-center">I take on freelance opportunities.</h1>
+		<p class="text-center">
+			Have an amazing design that you need to bring to life?<br>
+			Send me a message,
+			<a class="footer-a" href="contact.html">let's chat</a>!
 		</p>
 	</div>
-	<div class="footer-div">
-		<p class="footer-p">Made with <3 by Deji | Copyright © 2022</p>
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-bottom justify-content-center">
+	<div class="nav-item">
+		<p class="text-muted mb-0" style="font-size: 0.8rem;">Made with <3 by Deji | Copyright © 2022</p>
 	</div>
-</footer>
+</div>
 </body>
 </html>
