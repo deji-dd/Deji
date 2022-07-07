@@ -38,6 +38,11 @@ span, p, h2, h3, h4, h5, .h6 {
   width: 100%;
 }
 
+.design-link, .design-link:hover{
+  text-decoration: none;
+  color: white;
+}
+
 .rotate-img {
   transition: all 1s ease-in-out 0s;
   animation: rotate 10s infinite;
