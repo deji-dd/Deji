@@ -38,7 +38,7 @@ span, p, h2, h3, h4, h5, .h6 {
   width: 100%;
 }
 
-.design-link, .design-link:hover{
+.design-link, .design-link:hover {
   text-decoration: none;
   color: white;
 }
@@ -46,6 +46,29 @@ span, p, h2, h3, h4, h5, .h6 {
 .rotate-img {
   transition: all 1s ease-in-out 0s;
   animation: rotate 10s infinite;
+}
+
+.cta {
+  margin: 25% auto 20%;
+}
+
+.ftr {
+  font-size: 0.8rem;
+}
+
+.deji-div {
+  margin: 15% auto 20%;
+}
+
+.contact {
+  margin: 5% auto;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    width: 90%;
+  }
 }
 
 @keyframes rotate {
