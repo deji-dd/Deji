@@ -3,12 +3,12 @@ body, .card{
 }
 
 h1, h6 {
-  font-family: "Cormorant Garamond", serif !important;
+  font-family: "Cormorant Garamond", serif;
   color: #15133C;
 }
 
 span, p, h3, h4, h5, .h6 {
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   color: #73777B;
 }
 
@@ -18,7 +18,7 @@ a, a:hover {
 
 h2{
   color: #15133C;
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Raleway", sans-serif;
 }
 
 .active {
